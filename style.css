@@ -1,0 +1,66 @@
+body{ 
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2{
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#container{ 
+    display: flex;
+}
+
+#cat-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#dog-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image-contain{
+    height:300px;
+    width: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+#catImage{
+    width: auto;
+    height: 100%;
+}
+
+#dogImage{
+    width:auto;
+    height:100%;
+}
+
+
+button{
+    align-content: flex-end;
+    color: blue;
+    font-size: 22px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+button:hover{
+    color: #fff;
+    background: blue;
+    transition: 0.5s ease;
+}
+
+
+
